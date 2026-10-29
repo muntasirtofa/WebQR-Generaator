@@ -32,20 +32,7 @@ npm run build
 npm run preview
 ```
 
-## Deploy to Vercel
 
-Import the GitHub repository in Vercel. Vercel detects Vite automatically; use `npm run build` as the build command and `dist` as the output directory. The included [vercel.json](./vercel.json) configures security headers and the SPA fallback.
-
-To publish from a local Git checkout:
-
-```sh
-git init
-git add .
-git commit -m "Build QR Studio"
-git branch -M main
-git remote add origin https://github.com/YOUR-ACCOUNT/YOUR-REPOSITORY.git
-git push -u origin main
-```
 
 ## Privacy and safety
 
